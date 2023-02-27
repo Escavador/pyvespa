@@ -29,7 +29,7 @@ setuptools.setup(
         "docker",
         "jinja2",
         "cryptography",
-        "aiohttp",
+        "httpx[http2]",
         "tenacity",
     ],
     extras_require={
